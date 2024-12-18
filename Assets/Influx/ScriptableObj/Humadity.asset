@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11dd1b6904ed0cd408dedbfc61184c10, type: 3}
+  m_Name: Humadity
+  m_EditorClassIdentifier: 
+  minValue: 0
+  maxValue: 99
+  part: 10
+  greenValue:
+  - {x: 40, y: 49}
+  - {x: 50, y: 59}
+  yellowValue:
+  - {x: 20, y: 29}
+  - {x: 30, y: 39}
+  - {x: 60, y: 69}
+  - {x: 70, y: 79}
+  redValue: []

@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8424468691503320601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8424468691503320604}
+  - component: {fileID: 8424468691503320603}
+  - component: {fileID: 8424468691503320602}
+  - component: {fileID: 4405043602592001738}
+  m_Layer: 0
+  m_Name: T5UIInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8424468691503320604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424468691503320601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.599, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8424468691503320603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424468691503320601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e5a22ab0024514995f57434a8c6ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onWandAvailable:
+    m_PersistentCalls:
+      m_Calls: []
+  _onWandUnavailable:
+    m_PersistentCalls:
+      m_Calls: []
+  _onAPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onAHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onALifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onBPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onBHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onBLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onXPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onXHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onXLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onYPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onYHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onYLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onOnePressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onOneHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onOneLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTwoPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onTwoHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTwoLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onSystemPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4405043602592001738}
+        m_MethodName: OpenInstructions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onSystemHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onSystemLifted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTriggerDown:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTriggerPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onTriggerReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickMoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickHeld:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickReleased:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickStopMoving:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickStopUse:
+    m_PersistentCalls:
+      m_Calls: []
+  _onStickDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickRight:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickLeft:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickHeldDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickHeldUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickHeldRight:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onStickHeldLeft:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424468691503320602}
+        m_MethodName: OnMoveLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _stickMovementDeadzone: 0.2
+  _stickMovementHoldWait: 0.75
+  _stickMovementHoldDelay: 0.1
+--- !u!114 &8424468691503320602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424468691503320601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec164849325f7d4abf1d1a1115b4097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4405043602592001738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424468691503320601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b6b9c162044f2478a18e146c8759c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

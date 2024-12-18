@@ -1,0 +1,514 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Int32 TiltFive.NativePlugin::SetApplicationInfo(TiltFive.T5_StringUTF8,TiltFive.T5_StringUTF8,TiltFive.T5_StringUTF8)
+extern void NativePlugin_SetApplicationInfo_m0F9E057188F2EF74D652D6C4A6113A7BC443D0A9 (void);
+// 0x00000002 TiltFive.ServiceCompatibility TiltFive.NativePlugin::GetServiceCompatibility()
+extern void NativePlugin_GetServiceCompatibility_m3725CFA28C2460238A29F62B2F3CA103D6304A35 (void);
+// 0x00000003 System.Int32 TiltFive.NativePlugin::RefreshGlassesAvailable()
+extern void NativePlugin_RefreshGlassesAvailable_m221EB39E8EC18C7506BABA28B5E9F360F280B3BE (void);
+// 0x00000004 System.Int32 TiltFive.NativePlugin::GetGlassesFriendlyName(TiltFive.T5_StringUTF8&)
+extern void NativePlugin_GetGlassesFriendlyName_mF1CA9DB91770557A6581DC1C3135C3AD6D7B7239 (void);
+// 0x00000005 System.Int32 TiltFive.NativePlugin::GetGlassesPose(TiltFive.T5_GlassesPose&)
+extern void NativePlugin_GetGlassesPose_m44ADA79ECA1CDE6E888EAD91A4FBEC81C4B9D08D (void);
+// 0x00000006 System.Int32 TiltFive.NativePlugin::GetGameboardDimensions(TiltFive.GameboardType,TiltFive.T5_GameboardSize&)
+extern void NativePlugin_GetGameboardDimensions_m56A9ADF865B74EC20065C7C02E3B5DDA6FA0A643 (void);
+// 0x00000007 System.Int32 TiltFive.NativePlugin::GetWandAvailability(TiltFive.T5_Bool&,TiltFive.ControllerIndex)
+extern void NativePlugin_GetWandAvailability_m688D95BF3F138FE5D09ECC1D597ABB2CA754D7C6 (void);
+// 0x00000008 System.Int32 TiltFive.NativePlugin::ScanForWands()
+extern void NativePlugin_ScanForWands_m7D49A1836CDB78703BE632D55330707A46DA6ABE (void);
+// 0x00000009 System.Int32 TiltFive.NativePlugin::SwapWandHandedness()
+extern void NativePlugin_SwapWandHandedness_m59E477C237572F0370CD0D40602863CCF7A541A3 (void);
+// 0x0000000A System.Int32 TiltFive.NativePlugin::GetControllerState(TiltFive.ControllerIndex,TiltFive.T5_ControllerState&)
+extern void NativePlugin_GetControllerState_mEBE282128D33AFE3AA9166AA2CEF43B2EC83B64F (void);
+// 0x0000000B System.Int32 TiltFive.NativePlugin::SetRumbleMotor(System.UInt32,System.Single)
+extern void NativePlugin_SetRumbleMotor_m70ACDEC3D80E7ACA6CB9EC91AD5B3F7927532AC2 (void);
+// 0x0000000C System.Int32 TiltFive.NativePlugin::QueueStereoImages(TiltFive.T5_FrameInfo)
+extern void NativePlugin_QueueStereoImages_m6AC1A699770FC4EF0908D46089A19F356B5E74CB (void);
+// 0x0000000D System.IntPtr TiltFive.NativePlugin::GetSendFrameCallback()
+extern void NativePlugin_GetSendFrameCallback_m2064AEF211C860CEC7AE58D1B01FE1FD9FC8F768 (void);
+// 0x0000000E System.Int32 TiltFive.NativePlugin::GetMaxDisplayDimensions(System.Int32[])
+extern void NativePlugin_GetMaxDisplayDimensions_m30E11A95E3DDE3B85D856968D5941C7ED4D672C6 (void);
+// 0x0000000F System.Int32 TiltFive.NativePlugin::GetGlassesIPD(System.Single&)
+extern void NativePlugin_GetGlassesIPD_m92CF5676AA515874AAD33113D42E84C47082D367 (void);
+// 0x00000010 System.Void TiltFive.NativePlugin::UnloadWorkaround()
+extern void NativePlugin_UnloadWorkaround_m748018B38062CF1A8AC116DAAC862F8745198064 (void);
+// 0x00000011 System.Void TiltFive.NativePlugin::.ctor()
+extern void NativePlugin__ctor_m7EC5255E6AA7B796FF6F69C91198A3E7EC71C23B (void);
+// 0x00000012 System.Void TiltFive.T5_Bool::.ctor(System.Boolean)
+extern void T5_Bool__ctor_m1659BEEB3AC80CE2B2E6FE4483CE8A03734B99C0 (void);
+// 0x00000013 System.Boolean TiltFive.T5_Bool::op_Implicit(TiltFive.T5_Bool)
+extern void T5_Bool_op_Implicit_mF773EB75E5E087E34E8A590D27ABCAECDD013C69 (void);
+// 0x00000014 TiltFive.T5_Bool TiltFive.T5_Bool::op_Implicit(System.Boolean)
+extern void T5_Bool_op_Implicit_mD69CA4D7BE80D887A6C1CAA6D4E666EF31C99F7D (void);
+// 0x00000015 System.Void TiltFive.T5_Position::.ctor(UnityEngine.Vector3)
+extern void T5_Position__ctor_mA2E282BE682E717C1C839494E07D4C90EC6FC0AB (void);
+// 0x00000016 UnityEngine.Vector3 TiltFive.T5_Position::op_Implicit(TiltFive.T5_Position)
+extern void T5_Position_op_Implicit_m9D5047F3EB48CC3F1FBAEA61D5FBD9AB430559C7 (void);
+// 0x00000017 TiltFive.T5_Position TiltFive.T5_Position::op_Implicit(UnityEngine.Vector3)
+extern void T5_Position_op_Implicit_mEC7EC466D3839205E1F21EF23F9A495654CCC653 (void);
+// 0x00000018 System.Void TiltFive.T5_Rotation::.ctor(UnityEngine.Quaternion)
+extern void T5_Rotation__ctor_mBFED4D1F893AB6A655655DF9EF327EDD47DCF3E1 (void);
+// 0x00000019 UnityEngine.Quaternion TiltFive.T5_Rotation::op_Implicit(TiltFive.T5_Rotation)
+extern void T5_Rotation_op_Implicit_m7DD8FE02F35ACE1E8681D867AE8699D7C4E7AB8C (void);
+// 0x0000001A TiltFive.T5_Rotation TiltFive.T5_Rotation::op_Implicit(UnityEngine.Quaternion)
+extern void T5_Rotation_op_Implicit_m99D0D734EEE3A5A4AEC85E86B3601E0A3A1CAB7A (void);
+// 0x0000001B UnityEngine.Vector3 TiltFive.T5_GlassesPose::get_PosOfGLS_GBD()
+extern void T5_GlassesPose_get_PosOfGLS_GBD_m723213ADF74954EC92CC2C1A05EDEF6DD1508F45 (void);
+// 0x0000001C System.Void TiltFive.T5_GlassesPose::set_PosOfGLS_GBD(UnityEngine.Vector3)
+extern void T5_GlassesPose_set_PosOfGLS_GBD_m252826153571E0BC4E0EAAA6F64601C38B8BCB2A (void);
+// 0x0000001D UnityEngine.Quaternion TiltFive.T5_GlassesPose::get_RotationToGLS_GBD()
+extern void T5_GlassesPose_get_RotationToGLS_GBD_mF27DCE1A8E9556EC8C81B817F6816F9CCA7C7C9E (void);
+// 0x0000001E System.Void TiltFive.T5_GlassesPose::set_RotationToGLS_GBD(UnityEngine.Quaternion)
+extern void T5_GlassesPose_set_RotationToGLS_GBD_mB8FEE83525A29AC81AC854C8850EBAFF3D070379 (void);
+// 0x0000001F System.Boolean TiltFive.T5_ControllerState::get_AnalogValid()
+extern void T5_ControllerState_get_AnalogValid_m42AF8FC92674401941B55F004C92E17D5CD6583E (void);
+// 0x00000020 System.Void TiltFive.T5_ControllerState::set_AnalogValid(System.Boolean)
+extern void T5_ControllerState_set_AnalogValid_mEB47FDDDB402A2BACECCAC34C5AAE4111FF7B07D (void);
+// 0x00000021 System.Boolean TiltFive.T5_ControllerState::get_BatteryValid()
+extern void T5_ControllerState_get_BatteryValid_mDAB46DF96334493FBE81DF4A628DB153C01F4161 (void);
+// 0x00000022 System.Void TiltFive.T5_ControllerState::set_BatteryValid(System.Boolean)
+extern void T5_ControllerState_set_BatteryValid_m8B6C7AE6FF278A040209483FCF949C7FE053E307 (void);
+// 0x00000023 System.Boolean TiltFive.T5_ControllerState::get_ButtonsValid()
+extern void T5_ControllerState_get_ButtonsValid_m0FC62AF506C2232F1168D056CEC1579864E2D2F5 (void);
+// 0x00000024 System.Void TiltFive.T5_ControllerState::set_ButtonsValid(System.Boolean)
+extern void T5_ControllerState_set_ButtonsValid_m90F82ED0B52D5D6052C9A88FD6110E2E74194D0E (void);
+// 0x00000025 System.Boolean TiltFive.T5_ControllerState::get_PoseValid()
+extern void T5_ControllerState_get_PoseValid_m29F537A9E53F638D0D1B682DC4934217C03E7F4A (void);
+// 0x00000026 System.Void TiltFive.T5_ControllerState::set_PoseValid(System.Boolean)
+extern void T5_ControllerState_set_PoseValid_m0D02D25C3E5F14DA824C3AFBF2C160543A6FEBBD (void);
+// 0x00000027 UnityEngine.Quaternion TiltFive.T5_ControllerState::get_RotToWND_GBD()
+extern void T5_ControllerState_get_RotToWND_GBD_m129DF9FA8962FF582B6B1580E15196E85C4EBA88 (void);
+// 0x00000028 System.Void TiltFive.T5_ControllerState::set_RotToWND_GBD(UnityEngine.Quaternion)
+extern void T5_ControllerState_set_RotToWND_GBD_m3F45BECBE891C98516DF482560FC45D1250CA9A6 (void);
+// 0x00000029 UnityEngine.Vector3 TiltFive.T5_ControllerState::get_AimPos_GBD()
+extern void T5_ControllerState_get_AimPos_GBD_m38075D412042D3F337D21288E980C678DF62BB14 (void);
+// 0x0000002A System.Void TiltFive.T5_ControllerState::set_AimPos_GBD(UnityEngine.Vector3)
+extern void T5_ControllerState_set_AimPos_GBD_m292FDD94EF3EA5929E1E934879AA1AFAAE7887B9 (void);
+// 0x0000002B UnityEngine.Vector3 TiltFive.T5_ControllerState::get_FingertipsPos_GBD()
+extern void T5_ControllerState_get_FingertipsPos_GBD_m521B6E9DB0C73FDF8AFF94683F7168F8552FD643 (void);
+// 0x0000002C System.Void TiltFive.T5_ControllerState::set_FingertipsPos_GBD(UnityEngine.Vector3)
+extern void T5_ControllerState_set_FingertipsPos_GBD_mB1E737F7C3E267AE2119C5FD3CD5B5BA0FA57702 (void);
+// 0x0000002D UnityEngine.Vector3 TiltFive.T5_ControllerState::get_GripPos_GBD()
+extern void T5_ControllerState_get_GripPos_GBD_m80D6E2A12758F806B7809A9DBC2B3D5B1342CC9C (void);
+// 0x0000002E System.Void TiltFive.T5_ControllerState::set_GripPos_GBD(UnityEngine.Vector3)
+extern void T5_ControllerState_set_GripPos_GBD_m9DFEE48755DAFC4364624E4ED2FCAC3A39DE3F7B (void);
+// 0x0000002F UnityEngine.Vector2 TiltFive.T5_ControllerState/Joystick::op_Implicit(TiltFive.T5_ControllerState/Joystick)
+extern void Joystick_op_Implicit_m3B7933B7EEFFFB1E8F58A62C9621005234AA9013 (void);
+// 0x00000030 System.Boolean TiltFive.T5_ControllerState/Buttons::get_T5()
+extern void Buttons_get_T5_m146554F5CC69BD392FEEFF63FFA09C2A820C2763 (void);
+// 0x00000031 System.Void TiltFive.T5_ControllerState/Buttons::set_T5(System.Boolean)
+extern void Buttons_set_T5_m02508C3F416813BCF3D798923613BA7B864FA11C (void);
+// 0x00000032 System.Boolean TiltFive.T5_ControllerState/Buttons::get_One()
+extern void Buttons_get_One_m074636D0E2502F843BD7F198D77CF3B40D782DA1 (void);
+// 0x00000033 System.Void TiltFive.T5_ControllerState/Buttons::set_One(System.Boolean)
+extern void Buttons_set_One_mB2B80EF0F89688CCD87DBABA507842814DBF7294 (void);
+// 0x00000034 System.Boolean TiltFive.T5_ControllerState/Buttons::get_Two()
+extern void Buttons_get_Two_m8E482CD870E54A472F3904C7D20D3B919ACABEDD (void);
+// 0x00000035 System.Void TiltFive.T5_ControllerState/Buttons::set_Two(System.Boolean)
+extern void Buttons_set_Two_m5FBA1290A74CA6E4D3DACBD5D1EDD05859B3D8C3 (void);
+// 0x00000036 System.Boolean TiltFive.T5_ControllerState/Buttons::get_Three()
+extern void Buttons_get_Three_mD3105B15693685E5AD2467EA1A0F44581F0D1786 (void);
+// 0x00000037 System.Void TiltFive.T5_ControllerState/Buttons::set_Three(System.Boolean)
+extern void Buttons_set_Three_m9440BF97A9D3C44ECD7F08C98D0786923C69B3DA (void);
+// 0x00000038 System.Boolean TiltFive.T5_ControllerState/Buttons::get_A()
+extern void Buttons_get_A_m50F4EE5CB87DC581C1839E7671A93BBD49BE642C (void);
+// 0x00000039 System.Void TiltFive.T5_ControllerState/Buttons::set_A(System.Boolean)
+extern void Buttons_set_A_m9794EDD1D9D7453232F6E41B2A3559CF984CF3CB (void);
+// 0x0000003A System.Boolean TiltFive.T5_ControllerState/Buttons::get_B()
+extern void Buttons_get_B_mE0B8CEB0826B33EFB23DBA77E5E220A73D74C821 (void);
+// 0x0000003B System.Void TiltFive.T5_ControllerState/Buttons::set_B(System.Boolean)
+extern void Buttons_set_B_m20E6FCB7A27893D649BE32CA235D9352C2BE8391 (void);
+// 0x0000003C System.Boolean TiltFive.T5_ControllerState/Buttons::get_X()
+extern void Buttons_get_X_m75D291E586845E478C1AB757E2625EC70F9519B7 (void);
+// 0x0000003D System.Void TiltFive.T5_ControllerState/Buttons::set_X(System.Boolean)
+extern void Buttons_set_X_m40D7CF419A7C572FEE113E81BF72F3F08765EB85 (void);
+// 0x0000003E System.Boolean TiltFive.T5_ControllerState/Buttons::get_Y()
+extern void Buttons_get_Y_m5445F758C149078E23E4B8C763918E38BF59EDFD (void);
+// 0x0000003F System.Void TiltFive.T5_ControllerState/Buttons::set_Y(System.Boolean)
+extern void Buttons_set_Y_m2FDB03C46CF9DA0A85DF596B80ED845B39B54AC1 (void);
+// 0x00000040 System.Boolean TiltFive.T5_ControllerState/Buttons::get_System()
+extern void Buttons_get_System_m39FF6225737382EAE4077805E62A4709C4625E67 (void);
+// 0x00000041 System.Boolean TiltFive.T5_ControllerState/Buttons::get_Z()
+extern void Buttons_get_Z_m84A5CE0DD01CA3E6BFF2DD6239CE92AE89654FC0 (void);
+// 0x00000042 System.Void TiltFive.T5_VCI::.ctor(UnityEngine.Rect)
+extern void T5_VCI__ctor_m31D0DCFF458E77DC862A07787EF4D2E7BFDCA8F0 (void);
+// 0x00000043 UnityEngine.Rect TiltFive.T5_VCI::op_Implicit(TiltFive.T5_VCI)
+extern void T5_VCI_op_Implicit_mD4E1CCC429289E5449B5FF964BE27D57CCF3C9F2 (void);
+// 0x00000044 TiltFive.T5_VCI TiltFive.T5_VCI::op_Implicit(UnityEngine.Rect)
+extern void T5_VCI_op_Implicit_m83BA6F202FB7EE346CA7079C3319AA82566175CF (void);
+// 0x00000045 System.Boolean TiltFive.T5_FrameInfo::get_IsSrgb()
+extern void T5_FrameInfo_get_IsSrgb_mD8655B3B4B24E571249C3B5CE510C2FF139FEBEF (void);
+// 0x00000046 System.Void TiltFive.T5_FrameInfo::set_IsSrgb(System.Boolean)
+extern void T5_FrameInfo_set_IsSrgb_m0AC22AE2E1BAC0215726C614A0B95E17584212D4 (void);
+// 0x00000047 System.Boolean TiltFive.T5_FrameInfo::get_IsUpsideDown()
+extern void T5_FrameInfo_get_IsUpsideDown_mF121F29CFDE9754770ADF0D5AEFDB9B1C82345CB (void);
+// 0x00000048 System.Void TiltFive.T5_FrameInfo::set_IsUpsideDown(System.Boolean)
+extern void T5_FrameInfo_set_IsUpsideDown_m1D7053D60340A02DCF04F8AD2A058E2EADF95E4C (void);
+// 0x00000049 UnityEngine.Rect TiltFive.T5_FrameInfo::get_VCI()
+extern void T5_FrameInfo_get_VCI_mDD9F9489122AE32812FE4D0D0560A190BA3D453C (void);
+// 0x0000004A System.Void TiltFive.T5_FrameInfo::set_VCI(UnityEngine.Rect)
+extern void T5_FrameInfo_set_VCI_m3978F2B37AD1A924FBFE49F68336057BDC2B88EE (void);
+// 0x0000004B UnityEngine.Quaternion TiltFive.T5_FrameInfo::get_RotToLVC_GBD()
+extern void T5_FrameInfo_get_RotToLVC_GBD_m061CA46B47616708BC8D83B4D3AFE271512A7F9B (void);
+// 0x0000004C System.Void TiltFive.T5_FrameInfo::set_RotToLVC_GBD(UnityEngine.Quaternion)
+extern void T5_FrameInfo_set_RotToLVC_GBD_m3A8B1DE49189AC76AC49AA7CED5F6CD6E9F48917 (void);
+// 0x0000004D UnityEngine.Vector3 TiltFive.T5_FrameInfo::get_PosOfLVC_GBD()
+extern void T5_FrameInfo_get_PosOfLVC_GBD_m90B9DE6D86796F8532E1AD78BD363E21E454F74C (void);
+// 0x0000004E System.Void TiltFive.T5_FrameInfo::set_PosOfLVC_GBD(UnityEngine.Vector3)
+extern void T5_FrameInfo_set_PosOfLVC_GBD_m4ED417FC1886AEDB37D953AD468C9F80AC977B94 (void);
+// 0x0000004F UnityEngine.Quaternion TiltFive.T5_FrameInfo::get_RotToRVC_GBD()
+extern void T5_FrameInfo_get_RotToRVC_GBD_m14CE41DF049A0C1457F8FDA254F5C0CE8210B185 (void);
+// 0x00000050 System.Void TiltFive.T5_FrameInfo::set_RotToRVC_GBD(UnityEngine.Quaternion)
+extern void T5_FrameInfo_set_RotToRVC_GBD_m7065C3A18184B4A38892EEE24E3393A88E366904 (void);
+// 0x00000051 UnityEngine.Vector3 TiltFive.T5_FrameInfo::get_PosOfRVC_GBD()
+extern void T5_FrameInfo_get_PosOfRVC_GBD_m0693D3A079658E99910CCA508ADD247D6938C604 (void);
+// 0x00000052 System.Void TiltFive.T5_FrameInfo::set_PosOfRVC_GBD(UnityEngine.Vector3)
+extern void T5_FrameInfo_set_PosOfRVC_GBD_m1D2A4A86DC3504535431F299F9253FC24E016371 (void);
+// 0x00000053 System.Void TiltFive.T5_StringUTF8::.ctor(System.String)
+extern void T5_StringUTF8__ctor_m82FBE3D8D8F842F5725C28C956DC3B8953D2358E (void);
+// 0x00000054 System.String TiltFive.T5_StringUTF8::op_Implicit(TiltFive.T5_StringUTF8)
+extern void T5_StringUTF8_op_Implicit_mC5F2D661832C37F3A7320043A2C916EF39BED179 (void);
+// 0x00000055 TiltFive.T5_StringUTF8 TiltFive.T5_StringUTF8::op_Implicit(System.String)
+extern void T5_StringUTF8_op_Implicit_m45088BAC0DB1CEE31F98A0BC83E7752D4801D66D (void);
+// 0x00000056 System.String TiltFive.T5_StringUTF8::ToString(TiltFive.T5_StringUTF8)
+extern void T5_StringUTF8_ToString_m47702A081ED08862D5504B46FFFDC0A26BC0216B (void);
+// 0x00000057 System.Void TiltFive.T5_StringUTF8::Dispose()
+extern void T5_StringUTF8_Dispose_m453ABFC5D1BAB64547C8D544E5698F634880DB2D (void);
+// 0x00000058 System.Void TiltFive.T5_GameboardSize::.ctor(System.Single,System.Single,System.Single)
+extern void T5_GameboardSize__ctor_m0D166A8DAEF8997808AA836C31DE4DCF3CEE56E7 (void);
+static Il2CppMethodPointer s_methodPointers[88] = 
+{
+	NativePlugin_SetApplicationInfo_m0F9E057188F2EF74D652D6C4A6113A7BC443D0A9,
+	NativePlugin_GetServiceCompatibility_m3725CFA28C2460238A29F62B2F3CA103D6304A35,
+	NativePlugin_RefreshGlassesAvailable_m221EB39E8EC18C7506BABA28B5E9F360F280B3BE,
+	NativePlugin_GetGlassesFriendlyName_mF1CA9DB91770557A6581DC1C3135C3AD6D7B7239,
+	NativePlugin_GetGlassesPose_m44ADA79ECA1CDE6E888EAD91A4FBEC81C4B9D08D,
+	NativePlugin_GetGameboardDimensions_m56A9ADF865B74EC20065C7C02E3B5DDA6FA0A643,
+	NativePlugin_GetWandAvailability_m688D95BF3F138FE5D09ECC1D597ABB2CA754D7C6,
+	NativePlugin_ScanForWands_m7D49A1836CDB78703BE632D55330707A46DA6ABE,
+	NativePlugin_SwapWandHandedness_m59E477C237572F0370CD0D40602863CCF7A541A3,
+	NativePlugin_GetControllerState_mEBE282128D33AFE3AA9166AA2CEF43B2EC83B64F,
+	NativePlugin_SetRumbleMotor_m70ACDEC3D80E7ACA6CB9EC91AD5B3F7927532AC2,
+	NativePlugin_QueueStereoImages_m6AC1A699770FC4EF0908D46089A19F356B5E74CB,
+	NativePlugin_GetSendFrameCallback_m2064AEF211C860CEC7AE58D1B01FE1FD9FC8F768,
+	NativePlugin_GetMaxDisplayDimensions_m30E11A95E3DDE3B85D856968D5941C7ED4D672C6,
+	NativePlugin_GetGlassesIPD_m92CF5676AA515874AAD33113D42E84C47082D367,
+	NativePlugin_UnloadWorkaround_m748018B38062CF1A8AC116DAAC862F8745198064,
+	NativePlugin__ctor_m7EC5255E6AA7B796FF6F69C91198A3E7EC71C23B,
+	T5_Bool__ctor_m1659BEEB3AC80CE2B2E6FE4483CE8A03734B99C0,
+	T5_Bool_op_Implicit_mF773EB75E5E087E34E8A590D27ABCAECDD013C69,
+	T5_Bool_op_Implicit_mD69CA4D7BE80D887A6C1CAA6D4E666EF31C99F7D,
+	T5_Position__ctor_mA2E282BE682E717C1C839494E07D4C90EC6FC0AB,
+	T5_Position_op_Implicit_m9D5047F3EB48CC3F1FBAEA61D5FBD9AB430559C7,
+	T5_Position_op_Implicit_mEC7EC466D3839205E1F21EF23F9A495654CCC653,
+	T5_Rotation__ctor_mBFED4D1F893AB6A655655DF9EF327EDD47DCF3E1,
+	T5_Rotation_op_Implicit_m7DD8FE02F35ACE1E8681D867AE8699D7C4E7AB8C,
+	T5_Rotation_op_Implicit_m99D0D734EEE3A5A4AEC85E86B3601E0A3A1CAB7A,
+	T5_GlassesPose_get_PosOfGLS_GBD_m723213ADF74954EC92CC2C1A05EDEF6DD1508F45,
+	T5_GlassesPose_set_PosOfGLS_GBD_m252826153571E0BC4E0EAAA6F64601C38B8BCB2A,
+	T5_GlassesPose_get_RotationToGLS_GBD_mF27DCE1A8E9556EC8C81B817F6816F9CCA7C7C9E,
+	T5_GlassesPose_set_RotationToGLS_GBD_mB8FEE83525A29AC81AC854C8850EBAFF3D070379,
+	T5_ControllerState_get_AnalogValid_m42AF8FC92674401941B55F004C92E17D5CD6583E,
+	T5_ControllerState_set_AnalogValid_mEB47FDDDB402A2BACECCAC34C5AAE4111FF7B07D,
+	T5_ControllerState_get_BatteryValid_mDAB46DF96334493FBE81DF4A628DB153C01F4161,
+	T5_ControllerState_set_BatteryValid_m8B6C7AE6FF278A040209483FCF949C7FE053E307,
+	T5_ControllerState_get_ButtonsValid_m0FC62AF506C2232F1168D056CEC1579864E2D2F5,
+	T5_ControllerState_set_ButtonsValid_m90F82ED0B52D5D6052C9A88FD6110E2E74194D0E,
+	T5_ControllerState_get_PoseValid_m29F537A9E53F638D0D1B682DC4934217C03E7F4A,
+	T5_ControllerState_set_PoseValid_m0D02D25C3E5F14DA824C3AFBF2C160543A6FEBBD,
+	T5_ControllerState_get_RotToWND_GBD_m129DF9FA8962FF582B6B1580E15196E85C4EBA88,
+	T5_ControllerState_set_RotToWND_GBD_m3F45BECBE891C98516DF482560FC45D1250CA9A6,
+	T5_ControllerState_get_AimPos_GBD_m38075D412042D3F337D21288E980C678DF62BB14,
+	T5_ControllerState_set_AimPos_GBD_m292FDD94EF3EA5929E1E934879AA1AFAAE7887B9,
+	T5_ControllerState_get_FingertipsPos_GBD_m521B6E9DB0C73FDF8AFF94683F7168F8552FD643,
+	T5_ControllerState_set_FingertipsPos_GBD_mB1E737F7C3E267AE2119C5FD3CD5B5BA0FA57702,
+	T5_ControllerState_get_GripPos_GBD_m80D6E2A12758F806B7809A9DBC2B3D5B1342CC9C,
+	T5_ControllerState_set_GripPos_GBD_m9DFEE48755DAFC4364624E4ED2FCAC3A39DE3F7B,
+	Joystick_op_Implicit_m3B7933B7EEFFFB1E8F58A62C9621005234AA9013,
+	Buttons_get_T5_m146554F5CC69BD392FEEFF63FFA09C2A820C2763,
+	Buttons_set_T5_m02508C3F416813BCF3D798923613BA7B864FA11C,
+	Buttons_get_One_m074636D0E2502F843BD7F198D77CF3B40D782DA1,
+	Buttons_set_One_mB2B80EF0F89688CCD87DBABA507842814DBF7294,
+	Buttons_get_Two_m8E482CD870E54A472F3904C7D20D3B919ACABEDD,
+	Buttons_set_Two_m5FBA1290A74CA6E4D3DACBD5D1EDD05859B3D8C3,
+	Buttons_get_Three_mD3105B15693685E5AD2467EA1A0F44581F0D1786,
+	Buttons_set_Three_m9440BF97A9D3C44ECD7F08C98D0786923C69B3DA,
+	Buttons_get_A_m50F4EE5CB87DC581C1839E7671A93BBD49BE642C,
+	Buttons_set_A_m9794EDD1D9D7453232F6E41B2A3559CF984CF3CB,
+	Buttons_get_B_mE0B8CEB0826B33EFB23DBA77E5E220A73D74C821,
+	Buttons_set_B_m20E6FCB7A27893D649BE32CA235D9352C2BE8391,
+	Buttons_get_X_m75D291E586845E478C1AB757E2625EC70F9519B7,
+	Buttons_set_X_m40D7CF419A7C572FEE113E81BF72F3F08765EB85,
+	Buttons_get_Y_m5445F758C149078E23E4B8C763918E38BF59EDFD,
+	Buttons_set_Y_m2FDB03C46CF9DA0A85DF596B80ED845B39B54AC1,
+	Buttons_get_System_m39FF6225737382EAE4077805E62A4709C4625E67,
+	Buttons_get_Z_m84A5CE0DD01CA3E6BFF2DD6239CE92AE89654FC0,
+	T5_VCI__ctor_m31D0DCFF458E77DC862A07787EF4D2E7BFDCA8F0,
+	T5_VCI_op_Implicit_mD4E1CCC429289E5449B5FF964BE27D57CCF3C9F2,
+	T5_VCI_op_Implicit_m83BA6F202FB7EE346CA7079C3319AA82566175CF,
+	T5_FrameInfo_get_IsSrgb_mD8655B3B4B24E571249C3B5CE510C2FF139FEBEF,
+	T5_FrameInfo_set_IsSrgb_m0AC22AE2E1BAC0215726C614A0B95E17584212D4,
+	T5_FrameInfo_get_IsUpsideDown_mF121F29CFDE9754770ADF0D5AEFDB9B1C82345CB,
+	T5_FrameInfo_set_IsUpsideDown_m1D7053D60340A02DCF04F8AD2A058E2EADF95E4C,
+	T5_FrameInfo_get_VCI_mDD9F9489122AE32812FE4D0D0560A190BA3D453C,
+	T5_FrameInfo_set_VCI_m3978F2B37AD1A924FBFE49F68336057BDC2B88EE,
+	T5_FrameInfo_get_RotToLVC_GBD_m061CA46B47616708BC8D83B4D3AFE271512A7F9B,
+	T5_FrameInfo_set_RotToLVC_GBD_m3A8B1DE49189AC76AC49AA7CED5F6CD6E9F48917,
+	T5_FrameInfo_get_PosOfLVC_GBD_m90B9DE6D86796F8532E1AD78BD363E21E454F74C,
+	T5_FrameInfo_set_PosOfLVC_GBD_m4ED417FC1886AEDB37D953AD468C9F80AC977B94,
+	T5_FrameInfo_get_RotToRVC_GBD_m14CE41DF049A0C1457F8FDA254F5C0CE8210B185,
+	T5_FrameInfo_set_RotToRVC_GBD_m7065C3A18184B4A38892EEE24E3393A88E366904,
+	T5_FrameInfo_get_PosOfRVC_GBD_m0693D3A079658E99910CCA508ADD247D6938C604,
+	T5_FrameInfo_set_PosOfRVC_GBD_m1D2A4A86DC3504535431F299F9253FC24E016371,
+	T5_StringUTF8__ctor_m82FBE3D8D8F842F5725C28C956DC3B8953D2358E,
+	T5_StringUTF8_op_Implicit_mC5F2D661832C37F3A7320043A2C916EF39BED179,
+	T5_StringUTF8_op_Implicit_m45088BAC0DB1CEE31F98A0BC83E7752D4801D66D,
+	T5_StringUTF8_ToString_m47702A081ED08862D5504B46FFFDC0A26BC0216B,
+	T5_StringUTF8_Dispose_m453ABFC5D1BAB64547C8D544E5698F634880DB2D,
+	T5_GameboardSize__ctor_m0D166A8DAEF8997808AA836C31DE4DCF3CEE56E7,
+};
+extern void T5_Bool__ctor_m1659BEEB3AC80CE2B2E6FE4483CE8A03734B99C0_AdjustorThunk (void);
+extern void T5_Position__ctor_mA2E282BE682E717C1C839494E07D4C90EC6FC0AB_AdjustorThunk (void);
+extern void T5_Rotation__ctor_mBFED4D1F893AB6A655655DF9EF327EDD47DCF3E1_AdjustorThunk (void);
+extern void T5_GlassesPose_get_PosOfGLS_GBD_m723213ADF74954EC92CC2C1A05EDEF6DD1508F45_AdjustorThunk (void);
+extern void T5_GlassesPose_set_PosOfGLS_GBD_m252826153571E0BC4E0EAAA6F64601C38B8BCB2A_AdjustorThunk (void);
+extern void T5_GlassesPose_get_RotationToGLS_GBD_mF27DCE1A8E9556EC8C81B817F6816F9CCA7C7C9E_AdjustorThunk (void);
+extern void T5_GlassesPose_set_RotationToGLS_GBD_mB8FEE83525A29AC81AC854C8850EBAFF3D070379_AdjustorThunk (void);
+extern void T5_ControllerState_get_AnalogValid_m42AF8FC92674401941B55F004C92E17D5CD6583E_AdjustorThunk (void);
+extern void T5_ControllerState_set_AnalogValid_mEB47FDDDB402A2BACECCAC34C5AAE4111FF7B07D_AdjustorThunk (void);
+extern void T5_ControllerState_get_BatteryValid_mDAB46DF96334493FBE81DF4A628DB153C01F4161_AdjustorThunk (void);
+extern void T5_ControllerState_set_BatteryValid_m8B6C7AE6FF278A040209483FCF949C7FE053E307_AdjustorThunk (void);
+extern void T5_ControllerState_get_ButtonsValid_m0FC62AF506C2232F1168D056CEC1579864E2D2F5_AdjustorThunk (void);
+extern void T5_ControllerState_set_ButtonsValid_m90F82ED0B52D5D6052C9A88FD6110E2E74194D0E_AdjustorThunk (void);
+extern void T5_ControllerState_get_PoseValid_m29F537A9E53F638D0D1B682DC4934217C03E7F4A_AdjustorThunk (void);
+extern void T5_ControllerState_set_PoseValid_m0D02D25C3E5F14DA824C3AFBF2C160543A6FEBBD_AdjustorThunk (void);
+extern void T5_ControllerState_get_RotToWND_GBD_m129DF9FA8962FF582B6B1580E15196E85C4EBA88_AdjustorThunk (void);
+extern void T5_ControllerState_set_RotToWND_GBD_m3F45BECBE891C98516DF482560FC45D1250CA9A6_AdjustorThunk (void);
+extern void T5_ControllerState_get_AimPos_GBD_m38075D412042D3F337D21288E980C678DF62BB14_AdjustorThunk (void);
+extern void T5_ControllerState_set_AimPos_GBD_m292FDD94EF3EA5929E1E934879AA1AFAAE7887B9_AdjustorThunk (void);
+extern void T5_ControllerState_get_FingertipsPos_GBD_m521B6E9DB0C73FDF8AFF94683F7168F8552FD643_AdjustorThunk (void);
+extern void T5_ControllerState_set_FingertipsPos_GBD_mB1E737F7C3E267AE2119C5FD3CD5B5BA0FA57702_AdjustorThunk (void);
+extern void T5_ControllerState_get_GripPos_GBD_m80D6E2A12758F806B7809A9DBC2B3D5B1342CC9C_AdjustorThunk (void);
+extern void T5_ControllerState_set_GripPos_GBD_m9DFEE48755DAFC4364624E4ED2FCAC3A39DE3F7B_AdjustorThunk (void);
+extern void Buttons_get_T5_m146554F5CC69BD392FEEFF63FFA09C2A820C2763_AdjustorThunk (void);
+extern void Buttons_set_T5_m02508C3F416813BCF3D798923613BA7B864FA11C_AdjustorThunk (void);
+extern void Buttons_get_One_m074636D0E2502F843BD7F198D77CF3B40D782DA1_AdjustorThunk (void);
+extern void Buttons_set_One_mB2B80EF0F89688CCD87DBABA507842814DBF7294_AdjustorThunk (void);
+extern void Buttons_get_Two_m8E482CD870E54A472F3904C7D20D3B919ACABEDD_AdjustorThunk (void);
+extern void Buttons_set_Two_m5FBA1290A74CA6E4D3DACBD5D1EDD05859B3D8C3_AdjustorThunk (void);
+extern void Buttons_get_Three_mD3105B15693685E5AD2467EA1A0F44581F0D1786_AdjustorThunk (void);
+extern void Buttons_set_Three_m9440BF97A9D3C44ECD7F08C98D0786923C69B3DA_AdjustorThunk (void);
+extern void Buttons_get_A_m50F4EE5CB87DC581C1839E7671A93BBD49BE642C_AdjustorThunk (void);
+extern void Buttons_set_A_m9794EDD1D9D7453232F6E41B2A3559CF984CF3CB_AdjustorThunk (void);
+extern void Buttons_get_B_mE0B8CEB0826B33EFB23DBA77E5E220A73D74C821_AdjustorThunk (void);
+extern void Buttons_set_B_m20E6FCB7A27893D649BE32CA235D9352C2BE8391_AdjustorThunk (void);
+extern void Buttons_get_X_m75D291E586845E478C1AB757E2625EC70F9519B7_AdjustorThunk (void);
+extern void Buttons_set_X_m40D7CF419A7C572FEE113E81BF72F3F08765EB85_AdjustorThunk (void);
+extern void Buttons_get_Y_m5445F758C149078E23E4B8C763918E38BF59EDFD_AdjustorThunk (void);
+extern void Buttons_set_Y_m2FDB03C46CF9DA0A85DF596B80ED845B39B54AC1_AdjustorThunk (void);
+extern void Buttons_get_System_m39FF6225737382EAE4077805E62A4709C4625E67_AdjustorThunk (void);
+extern void Buttons_get_Z_m84A5CE0DD01CA3E6BFF2DD6239CE92AE89654FC0_AdjustorThunk (void);
+extern void T5_VCI__ctor_m31D0DCFF458E77DC862A07787EF4D2E7BFDCA8F0_AdjustorThunk (void);
+extern void T5_FrameInfo_get_IsSrgb_mD8655B3B4B24E571249C3B5CE510C2FF139FEBEF_AdjustorThunk (void);
+extern void T5_FrameInfo_set_IsSrgb_m0AC22AE2E1BAC0215726C614A0B95E17584212D4_AdjustorThunk (void);
+extern void T5_FrameInfo_get_IsUpsideDown_mF121F29CFDE9754770ADF0D5AEFDB9B1C82345CB_AdjustorThunk (void);
+extern void T5_FrameInfo_set_IsUpsideDown_m1D7053D60340A02DCF04F8AD2A058E2EADF95E4C_AdjustorThunk (void);
+extern void T5_FrameInfo_get_VCI_mDD9F9489122AE32812FE4D0D0560A190BA3D453C_AdjustorThunk (void);
+extern void T5_FrameInfo_set_VCI_m3978F2B37AD1A924FBFE49F68336057BDC2B88EE_AdjustorThunk (void);
+extern void T5_FrameInfo_get_RotToLVC_GBD_m061CA46B47616708BC8D83B4D3AFE271512A7F9B_AdjustorThunk (void);
+extern void T5_FrameInfo_set_RotToLVC_GBD_m3A8B1DE49189AC76AC49AA7CED5F6CD6E9F48917_AdjustorThunk (void);
+extern void T5_FrameInfo_get_PosOfLVC_GBD_m90B9DE6D86796F8532E1AD78BD363E21E454F74C_AdjustorThunk (void);
+extern void T5_FrameInfo_set_PosOfLVC_GBD_m4ED417FC1886AEDB37D953AD468C9F80AC977B94_AdjustorThunk (void);
+extern void T5_FrameInfo_get_RotToRVC_GBD_m14CE41DF049A0C1457F8FDA254F5C0CE8210B185_AdjustorThunk (void);
+extern void T5_FrameInfo_set_RotToRVC_GBD_m7065C3A18184B4A38892EEE24E3393A88E366904_AdjustorThunk (void);
+extern void T5_FrameInfo_get_PosOfRVC_GBD_m0693D3A079658E99910CCA508ADD247D6938C604_AdjustorThunk (void);
+extern void T5_FrameInfo_set_PosOfRVC_GBD_m1D2A4A86DC3504535431F299F9253FC24E016371_AdjustorThunk (void);
+extern void T5_StringUTF8__ctor_m82FBE3D8D8F842F5725C28C956DC3B8953D2358E_AdjustorThunk (void);
+extern void T5_StringUTF8_Dispose_m453ABFC5D1BAB64547C8D544E5698F634880DB2D_AdjustorThunk (void);
+extern void T5_GameboardSize__ctor_m0D166A8DAEF8997808AA836C31DE4DCF3CEE56E7_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[59] = 
+{
+	{ 0x06000012, T5_Bool__ctor_m1659BEEB3AC80CE2B2E6FE4483CE8A03734B99C0_AdjustorThunk },
+	{ 0x06000015, T5_Position__ctor_mA2E282BE682E717C1C839494E07D4C90EC6FC0AB_AdjustorThunk },
+	{ 0x06000018, T5_Rotation__ctor_mBFED4D1F893AB6A655655DF9EF327EDD47DCF3E1_AdjustorThunk },
+	{ 0x0600001B, T5_GlassesPose_get_PosOfGLS_GBD_m723213ADF74954EC92CC2C1A05EDEF6DD1508F45_AdjustorThunk },
+	{ 0x0600001C, T5_GlassesPose_set_PosOfGLS_GBD_m252826153571E0BC4E0EAAA6F64601C38B8BCB2A_AdjustorThunk },
+	{ 0x0600001D, T5_GlassesPose_get_RotationToGLS_GBD_mF27DCE1A8E9556EC8C81B817F6816F9CCA7C7C9E_AdjustorThunk },
+	{ 0x0600001E, T5_GlassesPose_set_RotationToGLS_GBD_mB8FEE83525A29AC81AC854C8850EBAFF3D070379_AdjustorThunk },
+	{ 0x0600001F, T5_ControllerState_get_AnalogValid_m42AF8FC92674401941B55F004C92E17D5CD6583E_AdjustorThunk },
+	{ 0x06000020, T5_ControllerState_set_AnalogValid_mEB47FDDDB402A2BACECCAC34C5AAE4111FF7B07D_AdjustorThunk },
+	{ 0x06000021, T5_ControllerState_get_BatteryValid_mDAB46DF96334493FBE81DF4A628DB153C01F4161_AdjustorThunk },
+	{ 0x06000022, T5_ControllerState_set_BatteryValid_m8B6C7AE6FF278A040209483FCF949C7FE053E307_AdjustorThunk },
+	{ 0x06000023, T5_ControllerState_get_ButtonsValid_m0FC62AF506C2232F1168D056CEC1579864E2D2F5_AdjustorThunk },
+	{ 0x06000024, T5_ControllerState_set_ButtonsValid_m90F82ED0B52D5D6052C9A88FD6110E2E74194D0E_AdjustorThunk },
+	{ 0x06000025, T5_ControllerState_get_PoseValid_m29F537A9E53F638D0D1B682DC4934217C03E7F4A_AdjustorThunk },
+	{ 0x06000026, T5_ControllerState_set_PoseValid_m0D02D25C3E5F14DA824C3AFBF2C160543A6FEBBD_AdjustorThunk },
+	{ 0x06000027, T5_ControllerState_get_RotToWND_GBD_m129DF9FA8962FF582B6B1580E15196E85C4EBA88_AdjustorThunk },
+	{ 0x06000028, T5_ControllerState_set_RotToWND_GBD_m3F45BECBE891C98516DF482560FC45D1250CA9A6_AdjustorThunk },
+	{ 0x06000029, T5_ControllerState_get_AimPos_GBD_m38075D412042D3F337D21288E980C678DF62BB14_AdjustorThunk },
+	{ 0x0600002A, T5_ControllerState_set_AimPos_GBD_m292FDD94EF3EA5929E1E934879AA1AFAAE7887B9_AdjustorThunk },
+	{ 0x0600002B, T5_ControllerState_get_FingertipsPos_GBD_m521B6E9DB0C73FDF8AFF94683F7168F8552FD643_AdjustorThunk },
+	{ 0x0600002C, T5_ControllerState_set_FingertipsPos_GBD_mB1E737F7C3E267AE2119C5FD3CD5B5BA0FA57702_AdjustorThunk },
+	{ 0x0600002D, T5_ControllerState_get_GripPos_GBD_m80D6E2A12758F806B7809A9DBC2B3D5B1342CC9C_AdjustorThunk },
+	{ 0x0600002E, T5_ControllerState_set_GripPos_GBD_m9DFEE48755DAFC4364624E4ED2FCAC3A39DE3F7B_AdjustorThunk },
+	{ 0x06000030, Buttons_get_T5_m146554F5CC69BD392FEEFF63FFA09C2A820C2763_AdjustorThunk },
+	{ 0x06000031, Buttons_set_T5_m02508C3F416813BCF3D798923613BA7B864FA11C_AdjustorThunk },
+	{ 0x06000032, Buttons_get_One_m074636D0E2502F843BD7F198D77CF3B40D782DA1_AdjustorThunk },
+	{ 0x06000033, Buttons_set_One_mB2B80EF0F89688CCD87DBABA507842814DBF7294_AdjustorThunk },
+	{ 0x06000034, Buttons_get_Two_m8E482CD870E54A472F3904C7D20D3B919ACABEDD_AdjustorThunk },
+	{ 0x06000035, Buttons_set_Two_m5FBA1290A74CA6E4D3DACBD5D1EDD05859B3D8C3_AdjustorThunk },
+	{ 0x06000036, Buttons_get_Three_mD3105B15693685E5AD2467EA1A0F44581F0D1786_AdjustorThunk },
+	{ 0x06000037, Buttons_set_Three_m9440BF97A9D3C44ECD7F08C98D0786923C69B3DA_AdjustorThunk },
+	{ 0x06000038, Buttons_get_A_m50F4EE5CB87DC581C1839E7671A93BBD49BE642C_AdjustorThunk },
+	{ 0x06000039, Buttons_set_A_m9794EDD1D9D7453232F6E41B2A3559CF984CF3CB_AdjustorThunk },
+	{ 0x0600003A, Buttons_get_B_mE0B8CEB0826B33EFB23DBA77E5E220A73D74C821_AdjustorThunk },
+	{ 0x0600003B, Buttons_set_B_m20E6FCB7A27893D649BE32CA235D9352C2BE8391_AdjustorThunk },
+	{ 0x0600003C, Buttons_get_X_m75D291E586845E478C1AB757E2625EC70F9519B7_AdjustorThunk },
+	{ 0x0600003D, Buttons_set_X_m40D7CF419A7C572FEE113E81BF72F3F08765EB85_AdjustorThunk },
+	{ 0x0600003E, Buttons_get_Y_m5445F758C149078E23E4B8C763918E38BF59EDFD_AdjustorThunk },
+	{ 0x0600003F, Buttons_set_Y_m2FDB03C46CF9DA0A85DF596B80ED845B39B54AC1_AdjustorThunk },
+	{ 0x06000040, Buttons_get_System_m39FF6225737382EAE4077805E62A4709C4625E67_AdjustorThunk },
+	{ 0x06000041, Buttons_get_Z_m84A5CE0DD01CA3E6BFF2DD6239CE92AE89654FC0_AdjustorThunk },
+	{ 0x06000042, T5_VCI__ctor_m31D0DCFF458E77DC862A07787EF4D2E7BFDCA8F0_AdjustorThunk },
+	{ 0x06000045, T5_FrameInfo_get_IsSrgb_mD8655B3B4B24E571249C3B5CE510C2FF139FEBEF_AdjustorThunk },
+	{ 0x06000046, T5_FrameInfo_set_IsSrgb_m0AC22AE2E1BAC0215726C614A0B95E17584212D4_AdjustorThunk },
+	{ 0x06000047, T5_FrameInfo_get_IsUpsideDown_mF121F29CFDE9754770ADF0D5AEFDB9B1C82345CB_AdjustorThunk },
+	{ 0x06000048, T5_FrameInfo_set_IsUpsideDown_m1D7053D60340A02DCF04F8AD2A058E2EADF95E4C_AdjustorThunk },
+	{ 0x06000049, T5_FrameInfo_get_VCI_mDD9F9489122AE32812FE4D0D0560A190BA3D453C_AdjustorThunk },
+	{ 0x0600004A, T5_FrameInfo_set_VCI_m3978F2B37AD1A924FBFE49F68336057BDC2B88EE_AdjustorThunk },
+	{ 0x0600004B, T5_FrameInfo_get_RotToLVC_GBD_m061CA46B47616708BC8D83B4D3AFE271512A7F9B_AdjustorThunk },
+	{ 0x0600004C, T5_FrameInfo_set_RotToLVC_GBD_m3A8B1DE49189AC76AC49AA7CED5F6CD6E9F48917_AdjustorThunk },
+	{ 0x0600004D, T5_FrameInfo_get_PosOfLVC_GBD_m90B9DE6D86796F8532E1AD78BD363E21E454F74C_AdjustorThunk },
+	{ 0x0600004E, T5_FrameInfo_set_PosOfLVC_GBD_m4ED417FC1886AEDB37D953AD468C9F80AC977B94_AdjustorThunk },
+	{ 0x0600004F, T5_FrameInfo_get_RotToRVC_GBD_m14CE41DF049A0C1457F8FDA254F5C0CE8210B185_AdjustorThunk },
+	{ 0x06000050, T5_FrameInfo_set_RotToRVC_GBD_m7065C3A18184B4A38892EEE24E3393A88E366904_AdjustorThunk },
+	{ 0x06000051, T5_FrameInfo_get_PosOfRVC_GBD_m0693D3A079658E99910CCA508ADD247D6938C604_AdjustorThunk },
+	{ 0x06000052, T5_FrameInfo_set_PosOfRVC_GBD_m1D2A4A86DC3504535431F299F9253FC24E016371_AdjustorThunk },
+	{ 0x06000053, T5_StringUTF8__ctor_m82FBE3D8D8F842F5725C28C956DC3B8953D2358E_AdjustorThunk },
+	{ 0x06000057, T5_StringUTF8_Dispose_m453ABFC5D1BAB64547C8D544E5698F634880DB2D_AdjustorThunk },
+	{ 0x06000058, T5_GameboardSize__ctor_m0D166A8DAEF8997808AA836C31DE4DCF3CEE56E7_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[88] = 
+{
+	9873,
+	11740,
+	11740,
+	11211,
+	11211,
+	10548,
+	10540,
+	11740,
+	11740,
+	10548,
+	10583,
+	11229,
+	11742,
+	11225,
+	11211,
+	11782,
+	8115,
+	6521,
+	11111,
+	11519,
+	6750,
+	11600,
+	11520,
+	6637,
+	11381,
+	11521,
+	8106,
+	6750,
+	7985,
+	6637,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7985,
+	6637,
+	8106,
+	6750,
+	8106,
+	6750,
+	8106,
+	6750,
+	11592,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	6521,
+	7869,
+	7869,
+	6645,
+	11388,
+	11523,
+	7869,
+	6521,
+	7869,
+	6521,
+	7993,
+	6645,
+	7985,
+	6637,
+	8106,
+	6750,
+	7985,
+	6637,
+	8106,
+	6750,
+	6622,
+	11345,
+	11522,
+	11345,
+	8115,
+	2241,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_TiltFiveCore_CodeGenModule;
+const Il2CppCodeGenModule g_TiltFiveCore_CodeGenModule = 
+{
+	"TiltFiveCore.dll",
+	88,
+	s_methodPointers,
+	59,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
